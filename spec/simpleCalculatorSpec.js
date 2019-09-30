@@ -1,5 +1,5 @@
 describe("simple calculator", function() {
-
+  const {add, multiply} = require("../src/simpleCalculator")
   it("should add two numbers", () => {
     let [arr1, arr2, arr3 ] = [[],[],[]];
     arr1.push(0,0);
